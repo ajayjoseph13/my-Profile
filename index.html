@@ -4,119 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajay Antony Joseph - Profile</title>
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <!-- Google Fonts for Marvel Theme -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(135deg, #6a11cb, #2575fc);
-            color: #333;
-        }
-        header {
-            background: rgba(255, 255, 255, 0.9);
-            padding: 2rem 0;
-            text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        header h1 {
-            font-size: 2.5rem;
-            color: #6a11cb;
-            margin: 0;
-        }
-        header p {
-            font-size: 1.2rem;
-            color: #333;
-            margin: 0;
-        }
-        section {
-            max-width: 900px;
-            margin: 2rem auto;
-            padding: 2rem;
-            background: white;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            border-radius: 10px;
-        }
-        h2 {
-            color: #2575fc;
-            border-bottom: 2px solid #6a11cb;
-            padding-bottom: 0.5rem;
-            margin-bottom: 1rem;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 1rem;
-        }
-        li strong {
-            color: #6a11cb;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background: rgba(0, 0, 0, 0.8);
+            background-color: #121212;
+            font-family: 'Press Start 2P', cursive;
             color: white;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        footer p {
             margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #C8102E;
+        }
+        .container {
+            padding: 40px 0;
+        }
+        .profile-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .profile-header h1 {
+            font-size: 3rem;
+            color: #FFD700;
+        }
+        .profile-header p {
+            font-size: 1.2rem;
+        }
+        .card {
+            background-color: #222;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .card-title {
+            font-size: 2rem;
+            color: #FFD700;
+        }
+        .card-content p {
+            font-size: 1rem;
+        }
+        .footer {
+            background-color: #C8102E;
+            text-align: center;
+            padding: 10px;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Marvel Theme - Profile</a>
+        </div>
+    </nav>
 
-<header>
-    <h1>Ajay Antony Joseph</h1>
-    <p>Assistant Professor | Tech Enthusiast | Lifelong Learner</p>
-</header>
+    <!-- Profile Section -->
+    <div class="container">
+        <div class="profile-header">
+            <h1>Ajay Antony Joseph</h1>
+            <p>Assistant Professor | Researcher | Tech Enthusiast</p>
+        </div>
 
-<section>
-    <h2>Personal Information</h2>
-    <ul>
-        <li><strong>Name:</strong> Ajay Antony Joseph</li>
-        <li><strong>Email:</strong> ajayjoseph13@depaul.edu.in</li>
-        <li><strong>Current Role:</strong> Assistant Professor at Rajagiri College, Kalamassery</li>
-    </ul>
-</section>
+        <!-- Cards for Details -->
+        <div class="row">
+            <!-- Professional Details -->
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Professional Details</span>
+                        <p><strong>Designation:</strong> Assistant Professor at Rajagiri College</p>
+                        <p><strong>Specialization:</strong> Data Structures, C, C++ Programming</p>
+                        <p><strong>Research Interests:</strong> Brain-Computer Interface, Sustainability through Technology</p>
+                    </div>
+                </div>
+            </div>
 
-<section>
-    <h2>Professional Experience</h2>
-    <ul>
-        <li><strong>Previous Role:</strong> Assistant Professor, School of Computer Science, DiST</li>
-        <li><strong>Teaching Subjects:</strong> Data Structures, Basic Programming in C</li>
-        <li><strong>Projects:</strong>
-            <ul>
-                <li><strong>D-BIN:</strong> Waste Segregation System</li>
-                <li><strong>Brain-Computer Interface (BCI):</strong> Simulation for paralyzed patients</li>
-            </ul>
-        </li>
-    </ul>
-</section>
+            <!-- Event Management -->
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Event Management</span>
+                        <p><strong>Coordinator for:</strong> AUGMENTA 2024 Inauguration</p>
+                        <p><strong>Events Organized:</strong> LAN Masters Tournament, Mega Event, Character Comic Con</p>
+                        <p><strong>Guest for the Event:</strong> Simi Joseph</p>
+                    </div>
+                </div>
+            </div>
 
-<section>
-    <h2>Interests & Activities</h2>
-    <ul>
-        <li>Biking and Track Events</li>
-        <li>Game Development and Programming Tutorials</li>
-        <li>Preparing for UPSC and SBI PO exams</li>
-    </ul>
-</section>
+            <!-- Academic & Projects -->
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Academic & Projects</span>
+                        <p><strong>PhD Project:</strong> Brain-Computer Interface for Paralyzed Patients</p>
+                        <p><strong>Project Team:</strong> D-BIN (Waste Segregation System)</p>
+                    </div>
+                </div>
+            </div>
 
-<section>
-    <h2>Projects & Achievements</h2>
-    <ul>
-        <li>Faculty Coordinator for AUGMENTA 2024 Student Association Inauguration</li>
-        <li>Organizer for LAN Masters Tournament (PUBG, PES, Ludo)</li>
-        <li>Content Creator on YouTube for biking, gaming, and software tutorials</li>
-    </ul>
-</section>
+            <!-- Contact Details -->
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Contact Details</span>
+                        <p><strong>Email:</strong> <a href="mailto:ajayjoseph13@depaul.edu.in" style="color: #FFD700;">ajayjoseph13@depaul.edu.in</a></p>
+                        <p><strong>Phone:</strong> +91-XXXX-XXXX</p>
+                        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ajay-antony-joseph" target="_blank" style="color: #FFD700;">LinkedIn Profile</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<footer>
-    <p>&copy; 2025 Ajay Antony Joseph. All rights reserved.</p>
-</footer>
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2025 Ajay Antony Joseph | All Rights Reserved</p>
+    </div>
 
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
